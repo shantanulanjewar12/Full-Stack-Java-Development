@@ -98,10 +98,10 @@ public class _5_ObjectCreationAndInstantiation {
         car3.drive();
 
         // 4️⃣ Using clone() method (creates copy of existing object)
-        Car car4 = (Car) car1.clone();
-        car4.color = "Blue";
-        car4.speed = 120;
-        car4.drive();
+        // // Car car4 = (Car) car1.clone();
+        // car4.color = "Blue";
+        // car4.speed = 120;
+        // car4.drive();
 
         // 5️⃣ Using deserialization (reading from saved object file)
         // ⚠️ Just showing conceptually — would normally involve file I/O
