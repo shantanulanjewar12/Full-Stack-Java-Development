@@ -1,15 +1,5 @@
 /*
 ================================================================================
-FILE NAME  : LISTS_LinkedList_Full_Notes.java
-FOLDER     : LISTS
-TOPIC      : Java LinkedList – COMPLETE THEORY + NOTES + EXAMPLES
-LEVEL      : Beginner → Advanced (Interview Ready)
-================================================================================
-
-⚠️ This file is a COMPLETE NOTE + CODE + EXPLANATION document.
-⚠️ Read comments carefully – they explain WHAT, WHY, HOW.
-
-================================================================================
 1. WHAT IS LINKEDLIST?
 ================================================================================
 - LinkedList is a DOUBLY LINKED LIST implementation of:
@@ -91,7 +81,7 @@ Space Complexity: O(n) (extra memory for pointers)
 
 import java.util.*;
 
-public class LISTS_LinkedList_Full_Notes {
+public class _3_LinkedList {
 
     public static void main(String[] args) {
 
@@ -123,6 +113,7 @@ public class LISTS_LinkedList_Full_Notes {
 
         // get(int index)
         int val = list.get(2);  // traversal required
+        System.out.println("Element at index 2: " + val);
 
         // set(int index, E element)
         list.set(2, 99);
@@ -181,12 +172,14 @@ public class LISTS_LinkedList_Full_Notes {
         while (it.hasNext()) {
             it.next();
         }
+        // O
 
         // Descending iterator (reverse traversal)
         Iterator<Integer> dit = list.descendingIterator();
         while (dit.hasNext()) {
             dit.next();
         }
+        // Output: 
 
         /*
         =================================================================================
@@ -213,6 +206,7 @@ public class LISTS_LinkedList_Full_Notes {
         // fromIndex → INCLUSIVE
         // toIndex   → EXCLUSIVE
         List<Integer> sub = list.subList(0, 2);
+        System.out.println(sub);
 
         // subList is VIEW
         // changes affect original list
@@ -225,6 +219,7 @@ public class LISTS_LinkedList_Full_Notes {
 
         // LinkedList is NOT thread-safe
         List<Integer> syncList = Collections.synchronizedList(new LinkedList<>());
+        System.out.println(syncList);
 
         /*
         =================================================================================
