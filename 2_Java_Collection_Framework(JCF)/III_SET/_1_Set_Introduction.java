@@ -135,7 +135,7 @@ Rule 5: Mutating elements inside Set is dangerous
 ================================================================================
 */
 
-class SetIntroduction {
+public class _1_Set_Introduction {
 
     public static void main(String[] args) {
 
@@ -408,7 +408,4 @@ ALTERNATIVES:
 - List
 - Map
 
-================================================================================
-END OF FILE
-================================================================================
 */
