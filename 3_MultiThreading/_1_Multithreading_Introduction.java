@@ -152,7 +152,7 @@ Two primary ways:
 ================================================================================
 */
 
-public class MultithreadingIntroduction {
+public class _1_Multithreading_Introduction {
 
     public static void main(String[] args) {
 
