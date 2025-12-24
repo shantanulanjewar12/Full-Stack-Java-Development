@@ -1,4 +1,4 @@
-package LOCKS;
+package CONCURRENCY.I_LOCKS_BASED_MECHANISM;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

@@ -1,4 +1,4 @@
-package LOCKS;
+package CONCURRENCY.I_LOCKS_BASED_MECHANISM;
 /*
 ================================================================================
                     REENTRANTLOCK – COMPLETE DETAILED NOTES
