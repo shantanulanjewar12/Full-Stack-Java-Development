@@ -27,7 +27,7 @@ public class _10_SectionWrapUp_Wildcards_In_Generics{
          ===========================================================================
          • The simplest wildcard represents an **unknown type**.
          • Accepts any List type.
-         • Useful for generic utilities that only look at items. :contentReference[oaicite:2]{index=2}
+         • Useful for generic utilities that only look at items. 
         */
         List<String> names = List.of("Alice", "Bob");
         printAnyList(names);
@@ -38,8 +38,7 @@ public class _10_SectionWrapUp_Wildcards_In_Generics{
          ===========================================================================
          • Allows the unknown type to be **Type or its subtypes**.
          • Good for **reading** values safely (producer).
-         • You *cannot add* arbitrary items because type might be narrower. :contentReference[oaicite:3]{index=3}
-        */
+         • You *cannot add* arbitrary items because type might be narrower. 
         List<Integer> ints = List.of(1, 2, 3);
         System.out.println("Sum: " + sumNumbers(ints));
 
