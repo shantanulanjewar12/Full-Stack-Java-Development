@@ -1,13 +1,3 @@
-/*
-===============================================================================
- FILE NAME       : IntelliJ_Debugger_And_Shortcuts_In_Java_Notes.java
- TOPIC           : IntelliJ IDEA Debugger Overview + Shortcuts + Step-by-Step Guide
- DESCRIPTION     : Notes on using IntelliJ IDEA debugger effectively,
-                   important shortcuts, debugger features and practical tips.
-                   This file is structured as plain text comments since it
-                   serves as a reference guide.
-===============================================================================
-*/
 
 public class IntelliJ_Debugger_And_Shortcuts {
 
